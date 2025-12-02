@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Alex Styles</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-tooltip="Home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-tooltip="Learn about me">About</a></li>
+                <li><a href="#portfolio" class="nav-link" data-tooltip="View my work">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link" data-tooltip="Get in touch">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-subtitle">Creative Designer</h2>
+                <h1 class="hero-title">Bringing Ideas to Life Through Design</h1>
+                <p class="hero-description">I'm Alex Styles, a passionate graphic designer specializing in brand identity, digital design, and creative storytelling.</p>
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop" alt="Alex Styles">
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Alex</h3>
+                    <p>With over 8 years of experience in graphic design, I've had the privilege of working with diverse clients ranging from startups to established brands. My passion lies in creating visual experiences that not only look beautiful but also communicate effectively and drive results.</p>
+                    <p>I specialize in brand identity design, digital illustration, and user interface design. My approach combines strategic thinking with creative execution, ensuring that every project tells a unique story and resonates with its intended audience.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-icon">🎨</span>
+                            <h4>Brand Identity</h4>
+                            <p>Creating memorable logos and cohesive brand systems</p>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">💻</span>
+                            <h4>Digital Design</h4>
+                            <p>Crafting engaging digital experiences and interfaces</p>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">✏️</span>
+                            <h4>Illustration</h4>
+                            <p>Bringing concepts to life through custom artwork</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">A selection of my recent projects showcasing creativity and innovation</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project="1">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop" alt="Brand Identity Project">
+                        <div class="portfolio-overlay">
+                            <h3>Luxe Cosmetics</h3>
+                            <p>Brand Identity</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="2">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&h=600&fit=crop" alt="Web Design Project">
+                        <div class="portfolio-overlay">
+                            <h3>TechFlow App</h3>
+                            <p>UI/UX Design</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="3">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop" alt="Packaging Design">
+                        <div class="portfolio-overlay">
+                            <h3>Organic Harvest</h3>
+                            <p>Packaging Design</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="4">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&h=600&fit=crop" alt="Illustration Project">
+                        <div class="portfolio-overlay">
+                            <h3>City Stories</h3>
+                            <p>Digital Illustration</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="5">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?w=800&h=600&fit=crop" alt="Print Design">
+                        <div class="portfolio-overlay">
+                            <h3>Annual Report 2024</h3>
+                            <p>Print Design</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-project="6">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop" alt="Social Media Campaign">
+                        <div class="portfolio-overlay">
+                            <h3>Social Campaign</h3>
+                            <p>Social Media Design</p>
+                            <button class="btn btn-secondary view-project">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Have a project in mind? Let's create something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always excited to discuss new projects and creative opportunities. Whether you need a complete brand identity or a single design piece, I'm here to help bring your vision to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>alex.styles@design.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>New York, NY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" data-tooltip="LinkedIn">LinkedIn</a>
+                        <a href="#" class="social-link" data-tooltip="Behance">Behance</a>
+                        <a href="#" class="social-link" data-tooltip="Instagram">Instagram</a>
+                        <a href="#" class="social-link" data-tooltip="Dribbble">Dribbble</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Styles. All rights reserved.</p>
+            <p>Designed with passion and creativity</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Project Image">
+                <div class="modal-text">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalCategory"></p>
+                    <div id="modalDescription"></div>
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <h4>Client</h4>
+                            <p id="modalClient"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Year</h4>
+                            <p id="modalYear"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Services</h4>
+                            <p id="modalServices"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===================================
+        // NAVIGATION FUNCTIONALITY
+        // ===================================
+
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Toggle mobile menu
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // ===================================
+        // SMOOTH SCROLLING
+        // ===================================
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // ===================================
+        // NAVBAR SCROLL EFFECT
+        // ===================================
+
+        let lastScroll = 0;
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                navbar.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // ===================================
+        // PORTFOLIO MODAL FUNCTIONALITY
+        // ===================================
+
+        const modal = document.getElementById('projectModal');
+        const modalClose = document.querySelector('.modal-close');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        // Project data
+        const projectData = {
+            1: {
+                title: 'Luxe Cosmetics',
+                category: 'Brand Identity',
+                image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop',
+                description: 'A comprehensive brand identity project for Luxe Cosmetics, a premium beauty brand targeting sophisticated consumers. The project included logo design, color palette development, typography selection, and brand guidelines. The elegant and modern aesthetic reflects the brand\'s commitment to luxury and quality, while maintaining accessibility and warmth.',
+                client: 'Luxe Cosmetics Inc.',
+                year: '2024',
+                services: 'Brand Identity, Logo Design, Brand Guidelines'
+            },
+            2: {
+                title: 'TechFlow App',
+                category: 'UI/UX Design',
+                image: 'https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&h=600&fit=crop',
+                description: 'TechFlow is a productivity application designed to help teams collaborate more effectively. The UI/UX design focuses on intuitive navigation, clean interfaces, and seamless user experiences. The project involved extensive user research, wireframing, prototyping, and user testing to ensure the final product meets user needs and business objectives.',
+                client: 'TechFlow Solutions',
+                year: '2024',
+                services: 'UI Design, UX Research, Prototyping, User Testing'
+            },
+            3: {
+                title: 'Organic Harvest',
+                category: 'Packaging Design',
+                image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop',
+                description: 'Organic Harvest is a sustainable food brand committed to organic farming practices. The packaging design emphasizes natural materials, earthy colors, and clear communication of the brand\'s values. Each package tells a story about the product\'s origin and the farmers who grew it, creating an emotional connection with consumers.',
+                client: 'Organic Harvest Co.',
+                year: '2023',
+                services: 'Packaging Design, Label Design, Brand Strategy'
+            },
+            4: {
+                title: 'City Stories',
+                category: 'Digital Illustration',
+                image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&h=600&fit=crop',
+                description: 'City Stories is a series of digital illustrations capturing the essence of urban life in major cities around the world. Each illustration combines architectural elements with human stories, creating vibrant and dynamic compositions. The project showcases diverse illustration styles and techniques, from detailed line work to bold color blocking.',
+                client: 'Urban Magazine',
+                year: '2023',
+                services: 'Digital Illustration, Concept Art, Editorial Design'
+            },
+            5: {
+                title: 'Annual Report 2024',
+                category: 'Print Design',
+                image: 'https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?w=800&h=600&fit=crop',
+                description: 'A comprehensive annual report design for a leading financial institution. The project required transforming complex financial data into accessible and engaging visual content. The design balances professionalism with creativity, using infographics, charts, and thoughtful typography to make the information digestible and memorable.',
+                client: 'Global Finance Corp.',
+                year: '2024',
+                services: 'Print Design, Data Visualization, Layout Design'
+            },
+            6: {
+                title: 'Social Campaign',
+                category: 'Social Media Design',
+                image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop',
+                description: 'A dynamic social media campaign designed to increase brand awareness and engagement for a lifestyle brand. The campaign includes a series of coordinated posts, stories, and advertisements across multiple platforms. The design system is flexible yet cohesive, allowing for variety while maintaining strong brand recognition.',
+                client: 'Lifestyle Brands Inc.',
+                year: '2024',
+                services: 'Social Media Design, Content Strategy, Campaign Design'
+            }
+        };
+
+        // Open modal when clicking on portfolio items
+        portfolioItems.forEach(item => {
+            const viewButton = item.querySelector('.view-project');
+            viewButton.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const projectId = item.getAttribute('data-project');
+                openModal(projectId);
+            });
+        });
+
+        function openModal(projectId) {
+            const project = projectData[projectId];
+            
+            if (project) {
+                document.getElementById('modalImage').src = project.image;
+                document.getElementById('modalTitle').textContent = project.title;
+                document.getElementById('modalCategory').textContent = project.category;
+                document.getElementById('modalDescription').innerHTML = `<p>${project.description}</p>`;
+                document.getElementById('modalClient').textContent = project.client;
+                document.getElementById('modalYear').textContent = project.year;
+                document.getElementById('modalServices').textContent = project.services;
+                
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        // Close modal
+        modalClose.addEventListener('click', closeModal);
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('active')) {
+                closeModal();
+            }
+        });
+
+        // ===================================
+        // FORM SUBMISSION
+        // ===================================
+
+        const contactForm = document.querySelector('.contact-form');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(contactForm);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simulate form submission
+            alert(`Thank you, ${name}! Your message has been received. I'll get back to you at ${email} as soon as possible.`);
+            
+            // Reset form
+            contactForm.reset();
+        });
+
+        // ===================================
+        // SCROLL ANIMATIONS
+        // ===================================
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for scroll animations
+        document.querySelectorAll('.skill-item, .contact-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // ===================================
+        // ACTIVE NAVIGATION LINK
+        // ===================================
+
+        const sections = document.querySelectorAll('section[id]');
+
+        function highlightNavigation() {
+            const scrollY = window.pageYOffset;
+            
+            sections.forEach(section => {
+                const sectionHeight = section.offsetHeight;
+                const sectionTop = section.offsetTop - 100;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    document.querySelector(`.nav-link[href="#${sectionId}"]`)?.classList.add('active');
+                } else {
+                    document.querySelector(`.nav-link[href="#${sectionId}"]`)?.classList.remove('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', highlightNavigation);
+
+        // ===================================
+        // LOADING ANIMATION
+        // ===================================
+
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // ===================================
+        // PERFORMANCE OPTIMIZATION
+        // ===================================
+
+        // Debounce function for scroll events
+        function debounce(func, wait = 10, immediate = true) {
+            let timeout;
+            return function() {
+                const context = this;
+                const args = arguments;
+                const later = function() {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                const callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        }
+
+        // Apply debounce to scroll events
+        window.addEventListener('scroll', debounce(highlightNavigation));
+
+        console.log('Alex Styles Portfolio - Loaded Successfully! 🎨');
+    </script>
+</body>
+</html>
